@@ -1,0 +1,47 @@
+body {
+    background-color: #001B2B;
+    color: white;  
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.celsius {
+    color: #FB7612;
+}
+
+.push {
+    height: 50px;
+}
+
+.video-container {
+    width: 100%;
+    max-height: 400px;  
+    overflow: hidden;  
+  }
+
+  video {
+      width: 100%;
+  }
+
+  hr {
+      border-color: #FB7612;
+  }
+
+.para-1 {
+    border-right: 1px solid orange;
+}
+
+.contactmaps {
+    
+    width: 100%;
+}
+
+@media only screen and (max-width:991px) {
+    .para-1 {
+        border-right: 0px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid orange;
+    }
+}
+
+
+
