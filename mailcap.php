@@ -14,7 +14,7 @@
         } else {
 
         # FIX: Replace this email with recipient email
-        $mail_to = "ivojongmans@gmail.com";
+        $mail_to = "info@ivojongmans.nl";
         
         # Sender Data
         
