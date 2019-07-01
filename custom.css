@@ -54,6 +54,11 @@ body {
     margin-right: auto;
     margin-bottom: 20px;
 }
+
+.vcenter {
+    margin-top: 60px;
+}
+
 .box .unlocked {
     max-height: 100%;
     max-width: 100%;
