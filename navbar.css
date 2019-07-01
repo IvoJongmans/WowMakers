@@ -15,11 +15,11 @@
 }
 /* Link */
 .navbar-default .navbar-nav > li > a {
-    color: white;
+    color: #FB7612;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #FB7612;
+    color: white;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,

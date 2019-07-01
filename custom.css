@@ -37,7 +37,7 @@ body {
 }
 
 .push {
-    height: 50px;
+    height: 40px;
 }
 
 .logo-font-size {
@@ -65,7 +65,7 @@ body {
   }
 
 .para-1 {
-    border-right: 1px solid orange;
+    border-right: 1px solid #FB7612;
 }
 
 .contactmaps {
@@ -75,7 +75,7 @@ body {
 
 .box {
     max-width: 500px;
-    min-height: 350px;
+    min-height: 370px;
     /* border: 3px solid orange; */
     display:block;
     margin-left: auto;
@@ -84,7 +84,7 @@ body {
 }
 
 .boxlocked {
-    border: 3px solid orange;
+    border: 3px solid #FB7612;
 }
 
 .vcenter {
