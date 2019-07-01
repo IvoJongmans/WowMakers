@@ -67,18 +67,19 @@
 
               <div class="col-sm-6">
                 <br/>
-                    <form action="#" method="post">
+                    <form action="mailcap.php" method="post">
+                        <input type="checkbox" name="contact_me_by_fax_only" value="1" style="display:none !important" tabindex="-1" autocomplete="off">
                         <div class="form-group">                          
-                          <input type="text" class="form-control" id="voornaam" placeholder="Naam*">
+                          <input type="text" class="form-control" id="voornaam" name="voornaam" placeholder="Naam*" required>
                         </div>
                         <div class="form-group">                          
-                          <input type="text" class="form-control" id="achternaam" placeholder="Achternaam*">
+                          <input type="text" class="form-control" id="achternaam" name="achternaam" placeholder="Achternaam*" required>
                         </div>
                         <div class="form-group">                          
-                          <input type="email" class="form-control" id="email" placeholder="E-mailadres*">
+                          <input type="email" class="form-control" id="email" name="email" placeholder="E-mailadres*" required>
                         </div>
                         <div class="form-group">                          
-                          <textarea class="form-control" name="message" >Laat hier uw bericht achter...</textarea>                          
+                          <textarea class="form-control" name="message" required>Laat hier uw bericht achter...</textarea>                          
                         </div>
                         <div class="form-group">
                                 <button type="submit" class="btn btn-warning">Verstuur</button>
