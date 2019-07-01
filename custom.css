@@ -31,13 +31,19 @@ body {
     font-size: 18px;
 }
 
+.slogan {
+    font-size: 17px;
+    font-family: 'MontserratEL', sans-serif;
+    font-weight: 100;
+}
+
 .celsius {
     color: #FB7612;
     font-family: 'MontserratEB', sans-serif; 
 }
 
 .push {
-    height: 40px;
+    height: 100px;
 }
 
 .logo-font-size {
