@@ -45,11 +45,31 @@ body {
     width: 100%;
 }
 
+.box {
+    max-width: 500px;
+    min-height: 350px;
+    border: 3px solid orange;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.box .unlocked {
+    max-height: 100%;
+    max-width: 100%;
+}
+.box .locked {
+    max-height: 75px;
+    display:block;
+    margin:auto;
+    padding:10px;
+}
+
 @media only screen and (max-width:991px) {
     .para-1 {
         border-right: 0px;
         padding-bottom: 15px;
-        border-bottom: 1px solid orange;
+        border-bottom: 1px solid #FB7612;
     }
 }
 
