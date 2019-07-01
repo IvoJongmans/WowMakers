@@ -1,11 +1,38 @@
+@font-face {
+    font-family: MontserratEB;
+    src: url("MonteserratExtraBold/Montserrat-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MontserratEB;
+    font-weight: bold;
+    src: url("MonteserratExtraBold/Montserrat-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MontserratEL;
+    src: url("MonteserratExtraBold/Montserrat-ExtraLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MontserratEL;
+    src: url("MonteserratExtraBold/Montserrat-ExtraLight.otf") format("opentype");
+}
+
+h1 {
+    color: white;
+    font-family: 'MontserratEB', sans-serif; 
+}
+
 body {
     background-color: #001B2B;
-    color: white;  
-    font-family: 'Montserrat', sans-serif;  
+    font-family: 'MontserratEL', sans-serif;
+    color: white;
 }
 
 .celsius {
     color: #FB7612;
+    font-family: 'MontserratEB', sans-serif; 
 }
 
 .push {
