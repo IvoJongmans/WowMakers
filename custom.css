@@ -82,6 +82,10 @@ body {
     margin-bottom: 20px;
 }
 
+.boxlocked {
+    border: 3px solid orange;
+}
+
 .vcenter {
     margin-top: 30px;
 }
