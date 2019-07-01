@@ -43,7 +43,7 @@ body {
 }
 
 .push {
-    height: 100px;
+    height: 40px;
 }
 
 .logo-font-size {
@@ -117,6 +117,9 @@ body {
         border-right: 0px;
         padding-bottom: 15px;
         border-bottom: 1px solid #FB7612;
+    }
+    .slogan{
+        display: none;
     }
 }
 

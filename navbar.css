@@ -4,8 +4,6 @@
 
 .navbar {
     background-color: #001B2B;
-    height: 70px;
-    border-bottom: 1px solid orange;
 }
 
 .navbar-default .navbar-brand {
@@ -13,15 +11,15 @@
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: white;
+    color: orange;
 }
 /* Link */
 .navbar-default .navbar-nav > li > a {
-    color: #FB7612;
+    color: orange;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: white;
+    color: #FB7612;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
