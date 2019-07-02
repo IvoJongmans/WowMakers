@@ -94,7 +94,7 @@ body {
 }
 
 .vcenter {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .box .unlocked {
@@ -150,11 +150,6 @@ body {
       display: none;
   }
 @media only screen and (max-width:991px) {
-    .para-1 {
-        border-right: 0px;
-        padding-bottom: 15px;
-        border-bottom: 1px solid #FB7612;
-    }
     .slogan{
         display: none;
     }

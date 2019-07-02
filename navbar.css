@@ -90,9 +90,6 @@ ul li ul {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
           color: white;
     }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
     .navbar-collapse.collapse {
         display: none !important;
     }
