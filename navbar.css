@@ -4,6 +4,7 @@
 
 .navbar {
     background-color: #001B2B;
+    height: 60px;
 }
 
 .navbar-default .navbar-brand {
