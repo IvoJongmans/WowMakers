@@ -126,6 +126,11 @@ body {
     margin-top: 43px;
 }   
 
+.horizontalcenter {
+    display:block;
+    margin:auto;
+}
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -175,10 +180,17 @@ body {
     .verticalcenter {
         margin-top: 160px;
     }
+    .horizontalcenter {
+        margin-top: 50px;
+    }
 }
 
 @media only screen and (max-width:767px) {
     .verticalcenter {
+        margin-top: 0px;
+        padding: 10px;
+    }
+    .horizontalcenter {
         margin-top: 0px;
         padding: 10px;
     }
