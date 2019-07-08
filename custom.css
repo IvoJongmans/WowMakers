@@ -117,6 +117,11 @@ body {
     cursor: pointer;
 }
 
+.abouttitle {
+    font-weight: 900;
+    padding: 25px;
+}
+
 #myVideo {
     position: fixed;
     right: 0;
