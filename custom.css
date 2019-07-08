@@ -122,6 +122,10 @@ body {
     padding: 25px;
 }
 
+.verticalcenter {
+    margin-top: 43px;
+}   
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -159,12 +163,26 @@ body {
   .showvideo{
       display: none;
   }
+@media only screen and (max-width:1199px) {
+    .verticalcenter{
+        margin-top: 83px;
+    }
+}
 @media only screen and (max-width:991px) {
     .slogan{
         display: none;
     }
+    .verticalcenter {
+        margin-top: 160px;
+    }
 }
 
+@media only screen and (max-width:767px) {
+    .verticalcenter {
+        margin-top: 0px;
+        padding: 10px;
+    }
+}
 @media only screen and (max-width:400px) {
     .brandlogo {
         height: 40px;
