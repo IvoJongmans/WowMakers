@@ -192,6 +192,7 @@ body {
     }
     .horizontalcenter {
         margin-top: 0px;
+        height: 200px;
         padding: 10px;
     }
 }
