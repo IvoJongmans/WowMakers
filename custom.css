@@ -201,10 +201,16 @@ body {
         height: 200px;
         padding: 10px;
     }
+    #hidewoordenboek {
+        border: 1px solid white;
+    }
 }
 @media only screen and (max-width:400px) {
     .brandlogo {
         height: 40px;
+    }
+    .verticalcenter {
+        display: none;
     }
 }
 
