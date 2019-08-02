@@ -133,6 +133,14 @@ body {
     margin:auto;
 }
 
+#pad2div {
+    overflow: hidden;
+}
+
+#pad2 {
+    margin-top: -62px;
+}
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -176,6 +184,9 @@ body {
     }
     .pad1 {
         margin-top: 80px;
+    }
+    #pad2 {
+        margin-top: -50px;
     }
 }
 @media only screen and (max-width:991px) {

@@ -73,13 +73,13 @@
                     <form action="mailcap.php" method="post">
                         <input type="checkbox" name="contact_me_by_fax_only" value="1" style="display:none !important" tabindex="-1" autocomplete="off">
                         <div class="form-group">                          
-                          <input type="text" class="form-control" id="voornaam" name="voornaam" placeholder="Name*" required>
+                          <input type="text" class="form-control" id="voornaam" name="voornaam" placeholder="Name*" required onfocus="this.placeholder=''" onblur="this.placeholder='Name*'">
                         </div>
                         <div class="form-group">                          
-                          <input type="text" class="form-control" id="achternaam" name="achternaam" placeholder="Lastname*" required>
+                          <input type="text" class="form-control" id="achternaam" name="achternaam" placeholder="Lastname*" required onfocus="this.placeholder=''" onblur="this.placeholder='Lastname*'">
                         </div>
                         <div class="form-group">                          
-                          <input type="email" class="form-control" id="email" name="email" placeholder="E-mail*" required>
+                          <input type="email" class="form-control" id="email" name="email" placeholder="E-mail*" required onfocus="this.placeholder=''" onblur="this.placeholder='E-mail*'">
                         </div>
                         <div class="form-group">                          
                           <textarea class="form-control" name="message" required placeholder="Please leave your message...*" onfocus="this.placeholder=''" onblur="this.placeholder='Please leave your message...*'"></textarea>                          
