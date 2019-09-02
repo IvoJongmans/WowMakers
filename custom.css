@@ -19,6 +19,11 @@
     src: url("MonteserratExtraBold/Montserrat-ExtraLight.otf") format("opentype");
 }
 
+#bolder {
+    font-weight: bold; 
+    font-family: 'MontserratEB', sans-serif; 
+}
+
 h1 {
     color: white;
     font-family: 'MontserratEB', sans-serif; 
